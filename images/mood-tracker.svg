@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="385px" height="339px" viewBox="0 0 385 339" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.4288477%" y1="50%" x2="72.3567708%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#2A304A" offset="0%"></stop>
+            <stop stop-color="#784583" offset="49.783237%"></stop>
+            <stop stop-color="#7C4786" offset="80.5048772%"></stop>
+            <stop stop-color="#B789B9" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="198" cy="45" r="35"></circle>
+        <filter x="-33.6%" y="-23.6%" width="170.0%" height="170.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="4.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.362324617   0 0 0 0 0.362324617   0 0 0 0 0.362324617  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="V1.--Mid-fi-Wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop-landing-page-copy" transform="translate(-136.000000, -784.000000)">
+            <g id="Group-6" transform="translate(122.000000, 784.000000)">
+                <path d="M368.414193,80.7765968 C384.519883,87.7825236 393.485072,105.71763 388.761642,123.176587 L344.991597,284.961423 L341.928424,296.331367 C337.127013,314.153338 319.62473,325.456803 301.40531,322.50233 L66.8688233,284.469743 C57.4437764,282.941371 49.1078729,277.753751 43.5737587,270.18703 C27.4129635,262.555926 19.0743432,243.911898 24.7650958,226.478398 L80.4530482,55.8795464 C85.9423362,39.06323 102.83576,28.7267465 120.307539,31.4940044 L345.504816,67.1617491 C354.692581,68.6169482 362.85744,73.5486675 368.414193,80.7765968 Z" id="Combined-Shape-Copy-2" fill-opacity="0.100000001" fill="#D8D8D8" transform="translate(206.500000, 177.000000) rotate(10.000000) translate(-206.500000, -177.000000) "></path>
+                <text id="Yay,-positive!" font-family="Lato-Medium, Lato" font-size="14" font-weight="400" line-spacing="16" letter-spacing="-0.4666667" fill="#4A5969">
+                    <tspan x="110.462333" y="41">Yay, </tspan>
+                    <tspan x="84" y="57">positive!</tspan>
+                </text>
+                <text id="Meh,-neutral." font-family="Lato-Medium, Lato" font-size="14" font-weight="400" line-spacing="16" letter-spacing="-0.4666667" fill="#4A5969">
+                    <tspan x="101.722667" y="158.824005">Meh, </tspan>
+                    <tspan x="88.0773336" y="174.824005">neutral.</tspan>
+                </text>
+                <text id="Boo,-negative." font-family="Lato-Medium, Lato" font-size="14" font-weight="400" line-spacing="16" letter-spacing="-0.4666667" fill="#4A5969">
+                    <tspan x="109.965333" y="286">Boo, </tspan>
+                    <tspan x="84" y="302">negative.</tspan>
+                </text>
+                <path d="M65.4917372,137.910714 C50.2579834,137.910714 37.9107143,150.260087 37.9107143,165.5 C37.9107143,180.739119 50.2565331,193.089286 65.4917372,193.089286 L331.508263,193.089286 C346.742017,193.089286 359.089286,180.739913 359.089286,165.5 C359.089286,150.260881 346.743467,137.910714 331.508263,137.910714 L65.4917372,137.910714 Z" id="Rectangle-111" stroke="#DDDCEA" stroke-width="9.82142857" transform="translate(198.500000, 165.500000) rotate(-270.000000) translate(-198.500000, -165.500000) "></path>
+                <path d="M66.5084771,147 C56.8388122,147 49,154.832892 49,164.5 L49,164.5 C49,174.164983 56.8317336,182 66.5084771,182 L331.491523,182 C341.161188,182 349,174.167108 349,164.5 L349,164.5 C349,154.835017 341.168266,147 331.491523,147 L66.5084771,147 Z" id="Rectangle-111-Copy" fill="url(#linearGradient-1)" transform="translate(199.000000, 164.500000) rotate(-90.000000) translate(-199.000000, -164.500000) "></path>
+                <path d="M152.5,40.5 L167.5,40.5" id="Line-3" stroke="#DDDCEA" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M152.5,165.5 L167.5,165.5" id="Line-3-Copy" stroke="#DDDCEA" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M152.5,291.5 L167.5,291.5" id="Line-3-Copy-2" stroke="#DDDCEA" stroke-width="5" stroke-linecap="square"></path>
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use stroke="#FFFFFF" stroke-width="8" fill="#F7C650" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group" transform="translate(179.000000, 35.000000)" fill="#2A304A">
+                    <circle id="Oval-3" cx="3" cy="3" r="3"></circle>
+                    <circle id="Oval-3-Copy" cx="36" cy="3" r="3"></circle>
+                </g>
+                <path d="M187.967904,47.0000016 L208.049199,46.9999908 C209.706059,46.9999908 211.04921,48.3431414 211.04921,50.0000016 C211.04921,50.3857536 210.974814,50.7678856 210.830098,51.1254635 C208.165873,57.7084878 203.727284,61 197.514331,61 C191.213123,61 187.071267,57.6143107 185.088764,50.8429321 L185.088778,50.8429279 C184.623235,49.2528311 185.534865,47.5864053 187.124962,47.1208617 C187.398766,47.0406982 187.682606,47.0000016 187.967904,47.0000016 Z" id="Path-7" fill="#2A304A"></path>
+                <path d="" id="Path-3" stroke="#979797"></path>
+            </g>
+        </g>
+    </g>
+</svg>

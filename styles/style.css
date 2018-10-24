@@ -1,0 +1,249 @@
+.my-nav{
+  background-color: #2A304A;
+  background: rgba(42, 48, 74, 0);
+  border: none;
+  border-radius:none;
+  margin-bottom: 0;
+  color: unset;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #074F57;
+    transition: background-color 200ms linear;
+}
+
+.my-nav .navbar-header {
+  height: 50px;
+}
+
+.navbar-default
+.navbar-nav li:hover{
+  background-color: #3d74a2;
+  color: white;
+}
+
+.navbar-default
+.navbar-nav .open a:focus {
+  background-color: #3d74a2;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 12pt;
+  color: white;
+  margin-right: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#logo{
+  width: 130px;
+  margin: 5px;
+
+}
+
+.ih-text {
+  float: none;
+  vertical-align: middle;
+
+}
+
+.form-inline .my-input {
+  width: 400px;
+  border-radius: 71px;
+  height: 50px;
+  /* margin-left: 9em; */
+  margin-top: 2em;
+}
+
+.row{
+  margin: 0;
+}
+.my-jumbo{
+  background-image: url(../images/bg-hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 68em;
+  margin-top: -74px;
+  background-color: white;
+}
+
+.my-jumbo h1{
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  /* margin-left: 2em; */
+  margin-top: 4em;
+  width: 70%;
+  line-height: .93em;
+  font-weight: 800;
+
+}
+
+
+.my-jumbo p{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: white;
+  /* margin-left: 4em; */
+  width: 70%;
+  line-height: 1.13em;
+  font-size: 22pt;
+
+}
+
+.btn-lg{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 40px;
+  /* margin-left: 7.2em; */
+  margin-top: 1em;
+  padding: .7em 1.5em .7em 1.5em;
+  background-color: #FFC80A;
+  border: none;
+  letter-spacing: 1px;
+  color: #2A304B;
+}
+
+.sm-image{
+  height: 50%;
+  width: 50%;
+
+}
+
+.img-responsive {
+  max-width: none;
+}
+
+
+.feature-text p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 80%;
+  margin: 0 0 10px;
+  font-size: 20pt;
+  color: #7c7c84;
+}
+
+.feature-text h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 30pt;
+  color: #2A304A;
+  margin-top: 1.5em;
+}
+
+
+.row-feature {
+margin-bottom: 10em;
+}
+
+.download-app{
+  background-image: url(../images/app-store-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-mockup{
+  float: right;
+}
+
+.download-text h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 30pt;
+  color: #2A304A;
+  margin-top: 3.5em;
+}
+
+.dl-badge{
+width: 25%;
+display: inline;
+margin-top: -3em;
+}
+
+.testimonials{
+  margin-top: 6em;
+}
+
+.testimonials h3{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 14pt;
+  color: #2A304A;
+}
+
+.testimonials p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  /* width: 81%; */
+  margin: 40px 14px 10px;
+  font-size: 16pt;
+  color: #7c7c84;
+  line-height: 1.4em;
+  letter-spacing: -0.2px;
+}
+
+.testimonial-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.my-form p {
+  line-height: 1.3em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20pt;
+  color: #7c7c84;
+}
+
+.my-form h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 30pt;
+  color: #2A304A;
+}
+
+.newsletter{
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+.social{
+  padding: .2em 1em .8em 1em;
+  color: white;
+}
+
+.social-icons{
+  background-color: #2A304A;;
+}
+/*
+.my-carousel{
+  background-color: steelblue;
+}
+.my-carousel h1{
+  backcolor: white;
+
+}
+
+.carousel-control.right, .carousel-control.left{
+  background-image: none;
+} */
+
+/* .cat{
+  margin-bottom: 5%;
+} */
+
+/*
+.form-inline .my-input {
+  width: 40vw;
+} */

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Landing Page</title>
+  <!-- JQUERY CDN ALWAYS GOES FIRST -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN - CSS part -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!--  BOOTSTRAP CDN - JS PART-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- ////////// MY CSS GOES AFTER BOOTSTRAP SO IT CAN OVERRIDE THE ORIGINAL STUFF ////////////////// -->
+  <link rel="stylesheet" href="styles/style.css">
+
+<!--  FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,500,800" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+
+
+
+
+
+</head>
+<!--////////////////content///////////////////////  -->
+  <body>
+      <nav class="navbar navbar-default navbar-fixed-top my-nav">
+        <div class="container-fluid my-page">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <img id="logo" src="images/polaris-logo.svg" alt="ironhack logo">
+            <a class="navbar-brand ih-text" href="#"></a>
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <!-- ////// ABOUT //////  -->
+              <li class"navbar-text"><a href="#">ABOUT</a></li>
+              <li class"navbar-text"><a href="#">BLOG</a></li>
+              <li class"navbar-text"><a href="#">SUPPORT</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+<!--  ////////////////////// JUMBOTRON //////////////////////////-->
+    <div class="jumbotron my-jumbo text-left bg-info">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-1 col-md-6 col-sm-12">
+          <h1>Create the  <br>self-care routine  you need.</h1>
+          <p class="body-copy-hero text-left">We know you’re busy, so we’re here to guide you to a more stress-free life.</p>
+
+          <form class="form-inline" action="#">
+            <div class="form-group">
+              <input type="email" class="form-control my-input" id="email" placeholder="E-mail">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary btn-lg">SIGN UP FOR FREE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+
+<!-- ////////////////////// IMG LEFT RIGHT //////////////////  -->
+<div class="container">
+  <div class="row row-feature">
+    <div class="col-lg-5 col-md-6 col-sm-12">
+      <img class="img-responsive my-rounded" src="images/mood-tracker.svg" alt="park forest">
+    </div>
+  <div class="col-lg-5 col-md-6 col-sm-12 feature-text col-lg-offset-2">
+      <h2>Track your moods</h2>
+      <p> Keep track of your daily happenings. Log your daily moods to sync with your calendar for bigger insights!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-feature">
+    <div class="col-lg-5 col-md-6 col-sm-12 feature-text">
+        <h2>Develop healthy habits with daily routines</h2>
+        <p> Ground your days any time with our recommended and guided healthy habits.
+        </p>
+      </div>
+    <div class="col-lg-5 col-md-6 col-sm-12 col-lg-offset-2">
+      <img class="img-responsive my-rounded right" src="images/routines.svg" alt="park forest">
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row row-feature">
+        <div class="col-lg-5 col-md-6 col-sm-12 ">
+          <img class="img-responsive my-rounded" src="images/results.svg" alt="park forest">
+        </div>
+      <div class="col-lg-5 col-md-6 col-sm-12 feature-text col-lg-offset-2">
+          <h2>Stay motivated and accountable</h2>
+          <p> Gather insights with our data to hold yourself accountable and make positive changes in your life.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- <! ////////////////////// full img SECTION /////////////////// -->
+<div class="container-fluid download-app">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-sm-12 download-text">
+        <h2>Download free and <br> get started today!</h2>
+
+        <img class="img-responsive dl-badge" src="images/app-store-badge.svg" alt="">
+        <img class="img-responsive dl-badge" src="images/google-play-badge.svg" alt="">
+    </div>
+
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <img class="img-responsive my-rounded app-mockup" src="images/app-mockup.svg" alt="park forest">
+        </div>
+  </div>
+</div>
+
+<!-- <! ////////////////////// Testimonials section /////////////////// -->
+<div class="container testimonials">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+      <img class="img-responsive my-rounded testimonial-pic" src="images/testimonial-1.svg" alt="park forest">
+    <!-- </div> -->
+  <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+      <p> “Polaris has allowed me to manage my feelings better through the daily routines. Now I can actually make time for them!”
+      </p>
+      <h3>- Karen, 31</h3>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+      <img class="img-responsive my-rounded testimonial-pic" src="images/testimonial-2.svg" alt="park forest">
+    <!-- </div> -->
+  <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+      <p> “It’s been helpful to see the data over time and notice how much happier I am when I stick to a routine I enjoy. It’s really motivating!”
+      </p>
+      <h3>- Ana, 28</h3>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+      <img class="img-responsive my-rounded testimonial-pic" src="images/testimonial-3.svg" alt="park forest">
+    <!-- </div> -->
+  <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
+      <p>“I love that I just don’t have to think about it. It’s been able to give me the me-time I never thought I had in my schedule.”
+      </p>
+      <h3>- Johanna, 34</h3>
+    </div>
+  </div>
+
+
+</div>
+<br>
+<br>
+
+<!-- ////////////////// form ///////////////////////////// -->
+<div class="container my-form text-center newsletter">
+  <h2>Join our Newsletter!<h2>
+    <p>Subscribe to our weekly tips and support network so you can stay accountable and on-track.
+    <form class="form-inline" action="#">
+      <div class="form-group">
+        <input type="email" class="form-control my-input" id="email" placeholder="E-mail">
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary btn-lg">SUBSCRIBE NOW</button>
+    </form>
+
+</form>
+</div>
+
+<!-- FOOTER -->
+
+<div class="container-fluid social-icons">
+        <div class="text-center center-block">
+            <br>
+                <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fab fa-facebook fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fab fa-twitter fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fab fa-google-plus fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+</div>
+
+</div>
+<script type="text/javascript">
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+</script>
+
+
+  </body>
+</html>
